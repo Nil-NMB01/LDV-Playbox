@@ -10,7 +10,7 @@ def maak_logboek_record():
     span_id = str(uuid.uuid4())   # Maakt unieke span voor deze specifieke stap
     timestamp = time.time()       # Tijdstip van deze actie
     processing_activity_id = "rvva-001"  # Hardcoded verwerking ID
-    status_code = 1               # 1 = OK (technisch succesvol uitgevoerd)
+    status_code = "OK"               # OK (technisch succesvol uitgevoerd)
 
     logboek_record = {
         "trace_id": trace_id,
